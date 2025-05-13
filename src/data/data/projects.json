@@ -1,0 +1,370 @@
+[
+  {
+    "title": "MapNest",
+    "techStack": [
+      "ReactJS",
+      "Leaflet",
+      "Vite",
+      "JavaScript"
+    ],
+    "description": "Comprehensive travel planning tool that allows users to visually map out their entire trip itinerary on an interactive map.",
+    "logo": "MonitoLogo",
+    "link": {
+      "label": "MapNest",
+      "href": "https://mapnest.vercel.app/"
+    }
+  },
+  {
+    "title": "PromptMotion",
+    "techStack": [
+      "AI",
+      "Node.js",
+      "NLP",
+      "ffmpeg",
+      "Express",
+      "Socket.io",
+      "GTTS"
+    ],
+    "description": "A tool for generating frame-based animations from script descriptions, bringing stories to life with AI-generated visuals.",
+    "logo": "MonitoLogo",
+    "link": {
+      "label": "PromptMotion",
+      "href": "https://github.com/crizmo/PromptMotion"
+    }
+  },
+  {
+    "title": "TerraBound",
+    "techStack": [
+      "Satellite Imagery",  
+      "React",
+      "Vite",
+      "Leaflet",
+      "Tailwind CSS",
+      "Flask",
+      "GeoJSON",
+      "AI",
+      "Machine Learning"
+    ],
+    "description": "A web app for managing geographical features and auto-measuring land areas using AI and satellite imagery.",
+    "logo": "TerraBoundLogo",
+    "link": {
+      "label": "TerraBound",
+      "href": "https://github.com/crizmo/TerraBound"
+    }
+  },
+  {
+    "title": "Enhanced Godot 3D Multiplayer Template",
+    "techStack": [
+      "Godot Engine",
+      "Multiplayer",
+      "3D",
+      "Networking"
+    ],
+    "description": "An Enhanced Godot 3D Multiplayer Template with room-based multiplayer, proximity chat, and real-time synchronization.",
+    "logo": "GodotLogo",
+    "link": {
+      "label": "Enhanced Godot 3D Multiplayer Template",
+      "href": "https://github.com/crizmo/godot-3d-multiplayer-enhanced"
+    }
+  },  
+  {
+    "title": "Japanese-easy",
+    "techStack": [
+      "NPM",
+      "Node.js",
+      "node-fetch",
+      "Kanji API"
+    ],
+    "description": "A comprehensive toolkit for accessing and working with Japanese Kanji, Kana, and pronunciation data.",
+    "logo": "MonitoLogo",
+    "link": {
+      "label": "Japanese-easy",
+      "href": "https://github.com/crizmo/japanese-easy"
+    }
+  },
+  {
+    "title": "Mew",
+    "techStack": [
+      "Python",
+      "Stack",
+      "Bytecode",
+      "Interpreter"
+    ],
+    "description": "A Python-based stack interpreter for a custom bytecode language.",
+    "logo": "MonitoLogo",
+    "link": {
+      "label": "Mew",
+      "href": "https://github.com/crizmo/mew"
+    }
+  },
+  {
+    "title": "Anyanime",
+    "techStack": [
+      "Node.js",
+      "Cloudinary",
+      "Express"
+    ],
+    "description": "Random anime image / gif generator ! With over 100k+ hits , 10k+ npm downloads! Simple but effective",
+    "logo": "Minimal",
+    "link": {
+      "label": "npmjs.com",
+      "href": "https://www.npmjs.com/package/anyanime"
+    }
+  },
+  {
+    "title": "Discord Cards",
+    "techStack": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "WebRTC",
+      "Socket.io"
+    ],
+    "description": "Discord Activity Cards. Share your rich presence with your friends",
+    "logo": "MonitoLogo",
+    "link": {
+      "label": "Discord Cards",
+      "href": "https://github.com/crizmo/DiscordCards"
+    }
+  },
+  {
+    "title": "KAnki",
+    "techStack": [
+      "JavaScript",
+      "Kindle",
+      "Anki"
+    ],
+    "description": "Anki specifically for jailbroken Kindle devices.",
+    "logo": "MonitoLogo",
+    "link": {
+      "label": "KAnki",
+      "href": "https://github.com/crizmo/KAnki"
+    }
+  },
+  {
+    "title": "KWordle",
+    "techStack": [
+      "JavaScript",
+      "Kindle",
+      "Wordle"
+    ],
+    "description": "Wordle specifically for jailbroken Kindle devices.",
+    "logo": "MonitoLogo",
+    "link": {
+      "label": "KWordle",
+      "href": "https://github.com/crizmo/KWordle"
+    }
+  },
+  
+  {
+    "title": "Sudoku Solver",
+    "techStack": [
+      "React",
+      "MUI",
+      "Backtracking"
+    ],
+    "description": "Sudoku Solver provides an interactive way to solve Sudoku puzzles using visual backtracking algorithm.",
+    "logo": "SudokuSolverLogo",
+    "link": {
+      "label": "Sudoku Solver",
+      "href": "https://quicksudoku.vercel.app/"
+    }
+  },
+  {
+    "title": "CatLoafAI",
+    "techStack": [
+      "React",
+      "Express",
+      "TensorFlow",
+      "Machine Learning",
+      "JavaScript"
+    ],
+    "description": "Cat Loaf Rater is a machine learning-powered web application to train and rate cat loaves.",
+    "logo": "MonitoLogo",
+    "link": {
+      "label": "CatLoafAI",
+      "href": "https://github.com/crizmo/CatLoafAI"
+    }
+  },
+  {
+    "title": "PaintPals",
+    "techStack": [
+      "React",
+      "Node.js",
+      "Express",
+      "Socket.io"
+    ],
+    "description": "Multiplayer drawing site inspired by MS Paint. Users can create rooms and draw together in real-time.",
+    "logo": "MonitoLogo",
+    "link": {
+      "label": "PaintPals",
+      "href": "https://github.com/crizmo/PaintPals"
+    }
+  },
+  {
+    "title": "WebRTC Setup",
+    "techStack": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "WebRTC",
+      "Socket.io"
+    ],
+    "description": "Demo of WebRTC video application",
+    "logo": "ConsultlyLogo",
+    "link": {
+      "label": "Github",
+      "href": "https://github.com/crizmo/WebRTC-Group-Call"
+    }
+  },
+  {
+    "title": "PingPal",
+    "techStack": [
+      "JavaScript",
+      "Node.js",
+      "Express"
+    ],
+    "description": "Active pinger for all your personal projects. Keep your projects alive and running smoothly.",
+    "logo": "MobileVikingsLogo",
+    "link": {
+      "label": "github.com",
+      "href": "https://github.com/crizmo/PingPal"
+    }
+  },
+  {
+    "title": "Elina",
+    "techStack": [
+      "Node.js",
+      "Express",
+      "Discord.js"
+    ],
+    "description": "Multipurpose discord bot in over 95+ servers, 10k+ users !",
+    "logo": "YearProgressLogo",
+    "link": {
+      "label": "github.com",
+      "href": "https://github.com/crizmo/Elina-dev"
+    }
+  },
+  {
+    "title": "Electron-image-host",
+    "techStack": [
+      "Electron",
+      "Node.js",
+      "Express",
+      "Cloudinary",
+      "ImgBB",
+      "Server"
+    ],
+    "description": "Simple demonstration of a desktop application that captures a screenshot and uploads it to a server. ",
+    "logo": "YearProgressLogo",
+    "link": {
+      "label": "Electron-image-host",
+      "href": "https://github.com/crizmo/Electron-image-host"
+    }
+  },
+  {
+    "title": "MangaMemories",
+    "techStack": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Express"
+    ],
+    "description": "Unique platform that allows users to transform their daily moments into manga-style memories.",
+    "logo": "MonitoLogo",
+    "link": {
+      "label": "MangaMemories",
+      "href": "https://mangamemories.vercel.app/"
+    }
+  },
+  {
+    "title": "Electron-screenshot",
+    "techStack": [
+      "Electron",
+      "Node.js",
+      "App",
+      "desktopCapture"
+    ],
+    "description": "Screenshot App using Electron JS. A simple demonstration of a desktop application that captures a screenshot and uploads it to a server.",
+    "logo": "YearProgressLogo",
+    "link": {
+      "label": "Electron-screenshot",
+      "href": "https://github.com/crizmo/electron-screenshot"
+    }
+  },
+  {
+    "title": "Boundless",
+    "techStack": [
+      "React",
+      "Leaflet",
+      "Socket.IO", 
+      "Vite",
+      "Tailwind CSS",
+      "Express"
+    ],
+    "description": "A real-time multiplayer game inspired by Paper.io, where players compete to control territory on real-world maps. Capture zones, outmaneuver rivals, and climb the leaderboard!",
+    "logo": "MonitoLogo",
+    "link": {
+      "label": "Boundless",
+      "href": "https://github.com/crizmo/Boundless"
+    }
+  },
+  {
+    "title": "Cordle",
+    "techStack": [
+      "Svelte",
+      "javascript"
+    ],
+    "description": "Wordle for programmers ! A fun and challenging game that tests your coding knowledge and vocabulary.",
+    "logo": "YearProgressLogo",
+    "link": {
+      "label": "cordle.vercel.app",
+      "href": "https://cordle.vercel.app/"
+    }
+  },
+  {
+    "title": "Timely",
+    "techStack": [
+      "Full Stack Developer",
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "description": "Reversed time tracking task manager!",
+    "logo": "ParabolLogo",
+    "link": {
+      "label": "timely",
+      "href": "https://timely-note.vercel.app/"
+    }
+  },
+  {
+    "title": "Pinscrape",
+    "techStack": [
+      "Node.js",
+      "Puppeteer",
+      "Express"
+    ],
+    "description": "Pinterest board, pins scraper",
+    "logo": "BarepapersLogo",
+    "link": {
+      "label": "Github",
+      "href": "https://github.com/crizmo/pinscrape"
+    }
+  },
+  {
+    "title": "Stream Savers",
+    "techStack": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "E.js"
+    ],
+    "description": "Free and open-source service to loop stream 24/7 to YouTube",
+    "logo": "TastyCloudLogo",
+    "link": {
+      "label": "github.com",
+      "href": "https://github.com/crizmo/Stream-Savers"
+    }
+  }
+]
