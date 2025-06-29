@@ -1,7 +1,29 @@
 [
   {
+    "title": "Uben",
+    "techStack": [
+      "React",
+      "Express.js",
+      "MongoDB",
+      "Material UI",
+      "JWT",
+      "Language Learning"
+    ],
+    "description": "A multi-language learning platform featuring spaced repetition, structured lessons, vocabulary building, and custom deck creation.",
+    "logo": "TastyCloudLogo",
+    "link": {
+      "label": "Uben",
+      "href": "https://github.com/crizmo/Uben"
+    }
+  },
+  {
     "title": "Sight",
-    "techStack": ["React", "Node.js", "Express", "MongoDB"],
+    "techStack": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
     "description": "Efficient and simple API Monitoring tool.",
     "logo": "JojoMobileLogo",
     "link": {
@@ -11,7 +33,12 @@
   },
   {
     "title": "Quake",
-    "techStack": ["React", "Node.js", "Express", "MongoDB"],
+    "techStack": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
     "description": "A place for Creative Collaboration with a detailed Bounty System.",
     "logo": "JojoMobileLogo",
     "link": {
@@ -21,7 +48,12 @@
   },
   {
     "title": "Cat-Club",
-    "techStack": ["React", "Node.js", "Express", "TypeScript"],
+    "techStack": [
+      "React",
+      "Node.js",
+      "Express",
+      "TypeScript"
+    ],
     "description": "Game like club pengiun but with cats",
     "logo": "JojoMobileLogo",
     "link": {

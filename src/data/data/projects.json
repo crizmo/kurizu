@@ -155,7 +155,6 @@
       "href": "https://github.com/crizmo/KWordle"
     }
   },
-  
   {
     "title": "Sudoku Solver",
     "techStack": [
@@ -229,6 +228,52 @@
     "link": {
       "label": "github.com",
       "href": "https://github.com/crizmo/PingPal"
+    }
+  },
+  {
+    "title": "KPaint",
+    "techStack": [
+      "C",
+      "GBDK",
+      "Game Boy Development",
+      "Kindle Optimization"
+    ],
+    "description": "A Game Boy drawing application optimized for Kindle, featuring a clean interface with static cursor and visual color selection indicators.",
+    "logo": "ConsultlyLogo",
+    "link": {
+      "label": "KPaint",
+      "href": "https://github.com/crizmo/KPaint"
+    }
+  },
+  {
+    "title": "Game Boy RPG Template",
+    "techStack": [
+      "C",
+      "GBDK",
+      "Game Boy Development",
+      "Sprite Animation"
+    ],
+    "description": "A simple top-down RPG template for Game Boy with four-directional player animations, camera system, and tile-based collision detection.",
+    "logo": "BarepapersLogo",
+    "link": {
+      "label": "Game Boy RPG Template",
+      "href": "https://github.com/crizmo/Game-Boy-RPG-Template"
+    }
+  },
+  {
+    "title": "MakeAWiki",
+    "techStack": [
+      "Node.js",
+      "Express",
+      "EJS",
+      "Markdown",
+      "Vercel"
+    ],
+    "description": "A flexible markdown-based wiki system with folder structure support, search functionality, and automatic table of contents generation.",
+    "logo": "ParabolLogo",
+    "link": {
+      "label": "MakeAWiki",
+      "href": "https://github.com/crizmo/MakeAWiki"
     }
   },
   {
