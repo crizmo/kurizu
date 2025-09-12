@@ -1,4 +1,21 @@
 [
+    {
+    "title": "Uben",
+    "techStack": [
+      "React",
+      "Express.js",
+      "MongoDB",
+      "Material UI",
+      "JWT",
+      "Language Learning"
+    ],
+    "description": "A multi-language learning platform featuring spaced repetition, structured lessons, vocabulary building, and custom deck creation.",
+    "logo": "TastyCloudLogo",
+    "link": {
+      "label": "Uben",
+      "href": "https://ubens.vercel.app/"
+    }
+  },
   {
     "title": "MapNest",
     "techStack": [
@@ -153,6 +170,21 @@
     "link": {
       "label": "KWordle",
       "href": "https://github.com/crizmo/KWordle"
+    }
+  },
+  {
+    "title": "KAnkiToAnki",
+    "techStack": [
+      "JavaScript",
+      "Anki",
+      "KAnki",
+      "HTML"
+    ],
+    "description": "A web-based tool to export KAnki vocabulary to Anki format (.apkg files). Paste your KAnki config and export directly to Anki.",
+    "logo": "MonitoLogo",
+    "link": {
+      "label": "KankiToAnki",
+      "href": "https://github.com/crizmo/KankiToAnki"
     }
   },
   {
@@ -410,6 +442,23 @@
     "link": {
       "label": "github.com",
       "href": "https://github.com/crizmo/Stream-Savers"
+    }
+  },
+  {
+    "title": "Imagehost",
+    "techStack": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "GridFS",
+      "Multer"
+    ],
+    "description": "Simple and straightforward image host using Node.js, Express, MongoDB, and GridFS.",
+    "logo": "TastyCloudLogo",
+    "link": {
+      "label": "github.com",
+      "href": "https://github.com/crizmo/imagehost"
     }
   }
 ]
