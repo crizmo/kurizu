@@ -173,18 +173,20 @@
     }
   },
   {
-    "title": "KAnkiToAnki",
+    "title": "react-use-offline",
     "techStack": [
-      "JavaScript",
-      "Anki",
-      "KAnki",
-      "HTML"
+      "React",
+      "hook",
+      "offline",
+      "queue",
+      "sync",
+      "react-hooks"
     ],
-    "description": "A web-based tool to export KAnki vocabulary to Anki format (.apkg files). Paste your KAnki config and export directly to Anki.",
+    "description": "A lightweight React hook for queuing actions while offline and syncing automatically when back online.",
     "logo": "MonitoLogo",
     "link": {
-      "label": "KankiToAnki",
-      "href": "https://github.com/crizmo/KankiToAnki"
+      "label": "react-use-offline",
+      "href": "https://www.npmjs.com/package/react-use-offline"
     }
   },
   {
