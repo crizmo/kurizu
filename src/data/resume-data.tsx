@@ -3,6 +3,7 @@ import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 import { XIcon } from "../components/icons/XIcon";
 import { DiscordIcon } from "../components/icons/DiscordIcon";
 import { InstagramIcon } from "lucide-react";
+import { KofiIcon } from "../components/icons/KofiIcon";
 
 import projectData from "./data/projects.json";
 import underDevelopmentData from "./data/underdev.json";
@@ -35,6 +36,11 @@ export const RESUME_DATA = {
         name: "Discord",
         url: "https://discord.gg/drunkbetch-782646778347388959",
         icon: DiscordIcon,
+      },
+      {
+        name: "Ko-fi",
+        url: "https://ko-fi.com/kurizu",
+        icon: KofiIcon,
       },
     ],
   },
