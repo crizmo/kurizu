@@ -17,7 +17,7 @@
     }
   },
   {
-    "title": "MapNest",
+    "title": "Journy",
     "techStack": [
       "ReactJS",
       "Leaflet",
@@ -27,8 +27,8 @@
     "description": "Comprehensive travel planning tool that allows users to visually map out their entire trip itinerary on an interactive map.",
     "logo": "MonitoLogo",
     "link": {
-      "label": "MapNest",
-      "href": "https://mapnest.vercel.app/"
+      "label": "Journy",
+      "href": "https://journy.net/"
     }
   },
   {
