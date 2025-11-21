@@ -28,11 +28,6 @@ export const RESUME_DATA = {
         icon: GitHubIcon,
       },
       {
-        name: "X",
-        url: "https://twitter.com/KurizuTaz",
-        icon: XIcon,
-      },
-      {
         name: "Discord",
         url: "https://discord.gg/drunkbetch-782646778347388959",
         icon: DiscordIcon,
