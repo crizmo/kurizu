@@ -11,7 +11,7 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { ProjectCard } from "../components/project-card";
 import { SunIcon, MoonIcon } from "lucide-react";
-
+import Link from "next/link";
 
 export default function Page() {
   const [darkMode, setDarkMode] = useState(false);
@@ -71,24 +71,6 @@ export default function Page() {
             </div>
           </div>
 
-          {/* <div className="flex flex-col gap-y-1 font-mono text-sm text-muted-foreground text-right">
-            {RESUME_DATA.location ? (
-              <p className="text-muted-foreground dark:text-gray-400">
-                <span>{RESUME_DATA.location}</span>
-              </p>
-            ) : null}
-            {RESUME_DATA.contact.email ? (
-              <a href={`mailto:${RESUME_DATA.contact.email}`}>
-                <span>Email: {RESUME_DATA.contact.email}</span>
-              </a>
-            ) : null}
-            {RESUME_DATA.contact.tel ? (
-              <a href={`tel:${RESUME_DATA.contact.tel}`}>
-                <span>Phone: {RESUME_DATA.contact.tel}</span>
-              </a>
-            ) : null}
-          </div> */}
-
           <Avatar className="h-28 w-28">
             <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
@@ -134,6 +116,14 @@ export default function Page() {
               );
             })}
           </div>
+        </Section>
+        <Section>
+          <h2 className="text-xl font-bold dark:text-white">Artwork</h2>
+          <Link href="/drawings">
+            <Button variant="outline" size="lg">
+              View My Drawings
+            </Button>
+          </Link>
         </Section>
         <Section className="scroll-mb-16">
           <h2 className="text-xl font-bold dark:text-white">Projects</h2>

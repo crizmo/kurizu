@@ -7,6 +7,7 @@ import { KofiIcon } from "../components/icons/KofiIcon";
 
 import projectData from "./data/projects.json";
 import underDevelopmentData from "./data/underdev.json";
+import drawingsData from "./data/drawings.json";
 
 export const RESUME_DATA = {
   name: "Kurizu",
@@ -63,6 +64,7 @@ export const RESUME_DATA = {
   ],
   projects: projectData,
   underDevelopment: underDevelopmentData,
+  drawings: drawingsData,
   interests: [
     "Programming",
     "Japanese",
