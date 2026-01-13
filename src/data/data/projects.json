@@ -70,6 +70,21 @@
     }
   },
   {
+    "title": "WebSpace",
+    "techStack": [
+      "React",
+      "JavaScript",
+      "HTML5 Canvas",
+      "Web APIs"
+    ],
+    "description": "WebSpace is a visual web exploration tool that lets you organize websites, notes, and ideas on an interactive canvas.",
+    "logo": "WebSpaceLogo",
+    "link": {
+      "label": "WebSpace",
+      "href": "https://websspace.vercel.app/"
+    }
+  },
+  {
     "title": "Enhanced Godot 3D Multiplayer Template",
     "techStack": [
       "Godot Engine",
