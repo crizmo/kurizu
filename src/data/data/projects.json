@@ -32,21 +32,18 @@
     }
   },
   {
-    "title": "PromptMotion",
+    "title": "WebSpace",
     "techStack": [
-      "AI",
-      "Node.js",
-      "NLP",
-      "ffmpeg",
-      "Express",
-      "Socket.io",
-      "GTTS"
+      "React",
+      "JavaScript",
+      "HTML5 Canvas",
+      "Web APIs"
     ],
-    "description": "A tool for generating frame-based animations from script descriptions, bringing stories to life with AI-generated visuals.",
-    "logo": "MonitoLogo",
+    "description": "WebSpace is a visual web exploration tool that lets you organize websites, notes, and ideas on an interactive canvas.",
+    "logo": "WebSpaceLogo",
     "link": {
-      "label": "PromptMotion",
-      "href": "https://github.com/crizmo/PromptMotion"
+      "label": "WebSpace",
+      "href": "https://websspace.vercel.app/"
     }
   },
   {
@@ -70,18 +67,21 @@
     }
   },
   {
-    "title": "WebSpace",
+    "title": "PromptMotion",
     "techStack": [
-      "React",
-      "JavaScript",
-      "HTML5 Canvas",
-      "Web APIs"
+      "AI",
+      "Node.js",
+      "NLP",
+      "ffmpeg",
+      "Express",
+      "Socket.io",
+      "GTTS"
     ],
-    "description": "WebSpace is a visual web exploration tool that lets you organize websites, notes, and ideas on an interactive canvas.",
-    "logo": "WebSpaceLogo",
+    "description": "A tool for generating frame-based animations from script descriptions, bringing stories to life with AI-generated visuals.",
+    "logo": "MonitoLogo",
     "link": {
-      "label": "WebSpace",
-      "href": "https://websspace.vercel.app/"
+      "label": "PromptMotion",
+      "href": "https://github.com/crizmo/PromptMotion"
     }
   },
   {
