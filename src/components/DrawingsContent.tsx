@@ -5,6 +5,7 @@ import { RESUME_DATA } from "../data/resume-data";
 import { DrawingCard } from "../components/drawing-card";
 import { Button } from "../components/ui/button";
 import { SunIcon, MoonIcon, ArrowLeftIcon } from "lucide-react";
+import Link from "next/link";
 import {
   Dialog,
   DialogContent,
@@ -12,7 +13,7 @@ import {
 } from "../components/ui/dialog";
 import Masonry from 'react-masonry-css';
 
-export default function DrawingsContent({ navigate }: { navigate: (path: string) => void }) {
+export default function DrawingsContent() {
   const [darkMode, setDarkMode] = useState(false);
   const [selectedDrawing, setSelectedDrawing] = useState<{title: string, image: string} | null>(null);
   const [open, setOpen] = useState(false);
@@ -41,10 +42,12 @@ export default function DrawingsContent({ navigate }: { navigate: (path: string)
       >
         {darkMode ? <SunIcon className="h-6 w-6" /> : <MoonIcon className="h-6 w-6" />}
       </button>
-      <Button variant="outline" className="fixed top-4 left-4 print:hidden" onClick={() => navigate('/')}>
-        <ArrowLeftIcon className="h-4 w-4 mr-2" />
-        Back
-      </Button>
+      <Link href="/">
+        <Button variant="outline" className="fixed top-4 left-4 print:hidden">
+          <ArrowLeftIcon className="h-4 w-4 mr-2" />
+          Back
+        </Button>
+      </Link>
       <section className="mx-auto w-full max-w-6xl space-y-8 bg-white dark:bg-gray-800 print:space-y-6 mt-16">
         <div className="text-center">
           <h1 className="text-3xl font-bold dark:text-white">My Drawings</h1>

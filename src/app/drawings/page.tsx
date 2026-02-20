@@ -25,5 +25,5 @@ export const metadata: Metadata = {
 };
 
 export default function DrawingsPage() {
-  return <DrawingsContent navigate={() => window.location.href = '/'} />;
+  return <DrawingsContent />;
 }

@@ -11,8 +11,9 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { ProjectCard } from "../components/project-card";
 import { SunIcon, MoonIcon } from "lucide-react";
+import Link from "next/link";
 
-export default function MainContent({ navigate }: { navigate: (path: string) => void }) {
+export default function MainContent() {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
@@ -118,9 +119,11 @@ export default function MainContent({ navigate }: { navigate: (path: string) => 
         </Section>
         <Section>
           <h2 className="text-xl font-bold dark:text-white">Artwork</h2>
-          <Button variant="outline" size="lg" onClick={() => navigate('/drawings')}>
-            View My Drawings
-          </Button>
+          <Link href="/drawings">
+            <Button variant="outline" size="lg">
+              View My Drawings
+            </Button>
+          </Link>
         </Section>
         <Section className="scroll-mb-16">
           <h2 className="text-xl font-bold dark:text-white">Projects</h2>
