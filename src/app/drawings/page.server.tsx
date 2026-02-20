@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import DrawingsContent from '../../components/DrawingsContent';
+import DrawingsPage from './page';
 
 export const metadata: Metadata = {
   title: 'My Drawings | Kurizu',
@@ -24,6 +24,6 @@ export const metadata: Metadata = {
   },
 };
 
-export default function DrawingsPage() {
-  return <DrawingsContent navigate={() => window.location.href = '/'} />;
+export default function DrawingsPageWrapper() {
+  return <DrawingsPage />;
 }
