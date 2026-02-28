@@ -82,7 +82,7 @@ export default function MainContent() {
             {RESUME_DATA.summary}
           </p>
         </Section>
-        <Section>
+        {/* <Section>
           <h2 className="text-xl font-bold dark:text-white">Skills</h2>
           <div className="space-y-2">
             {RESUME_DATA.skills.map((skillCategory) => (
@@ -101,7 +101,7 @@ export default function MainContent() {
               </div>
             ))}
           </div>
-        </Section>
+        </Section> */}
         <Section>
           <h2 className="print-force-new-page text-xl font-bold dark:text-white">Interests</h2>
           <div className="flex flex-wrap gap-1.5 mt-1">
