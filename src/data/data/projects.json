@@ -166,7 +166,7 @@
       "Kindle",
       "Anki"
     ],
-    "description": "Anki specifically for jailbroken Kindle devices.",
+    "description": "Anki for jailbroken Kindle devices.",
     "logo": "MonitoLogo",
     "link": {
       "label": "KAnki",
@@ -180,11 +180,25 @@
       "Kindle",
       "Wordle"
     ],
-    "description": "Wordle specifically for jailbroken Kindle devices.",
+    "description": "Wordle for jailbroken Kindle devices.",
     "logo": "MonitoLogo",
     "link": {
       "label": "KWordle",
       "href": "https://github.com/crizmo/KWordle"
+    }
+  },
+  {
+    "title": "KPomo",
+    "techStack": [
+      "JavaScript",
+      "Kindle",
+      "Pomodoro"
+    ],
+    "description": "Pomodoro timer for jailbroken Kindle devices.",
+    "logo": "MonitoLogo",
+    "link": {
+      "label": "KPomo",
+      "href": "https://github.com/crizmo/KPomo"
     }
   },
   {
