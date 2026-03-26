@@ -50,7 +50,7 @@ export async function GET() {
           {drawings.map((drawing, index) => (
             <img
               key={index}
-              src={`https://kurizu.vercel.app${drawing.image}`}
+              src={`https://kurizu.journy.net${drawing.image}`}
               alt={drawing.title}
               style={{
                 width: imageSize,

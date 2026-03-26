@@ -18,7 +18,7 @@ export const RESUME_DATA = {
     "As curious as a cat (with a keyboard), Eager to learn new things !",
   summary: "I make stuff. Mostly code that miraculously runs (on a good day). Occasionally I draw questionable art. Frequently distracted by cats.",
   avatarUrl: "https://avatars.githubusercontent.com/u/83665497?v=4",
-  personalWebsiteUrl: "https://kurizu.vercel.app/",
+  personalWebsiteUrl: "https://kurizu.journy.net",
   contact: {
     email: "",
     tel: "",
