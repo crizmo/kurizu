@@ -81,6 +81,11 @@ export default function DrawingsContent() {
               src={selectedDrawing.image}
               alt={selectedDrawing.title}
               className="w-full h-auto max-h-[70vh] object-contain"
+              onError={(event) => {
+                // fallback to show a message when image file is missing
+                (event.currentTarget as HTMLImageElement).src = "";
+                (event.currentTarget as HTMLImageElement).alt = "Image unavailable";
+              }}
             />
           )}
         </DialogContent>
