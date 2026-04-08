@@ -98,37 +98,25 @@
       "label": "Enhanced Godot 3D Multiplayer Template",
       "href": "https://github.com/crizmo/godot-3d-multiplayer-enhanced"
     }
+  },
+    {
+    "title": "Leaflet Place Search",
+    "techStack": [
+      "React",
+      "Leaflet",
+      "React Leaflet",
+      "OpenStreetMap",
+      "Nominatim",
+      "Wikimedia",
+      "Open-Meteo"
+    ],
+    "description": "A reusable React place search component for Leaflet maps with search, map fly-to, Wikipedia place details, optional Wikimedia image gallery, and optional weather forecast.",
+    "logo": "MonitoLogo",
+    "link": {
+      "label": "leaflet-place-search",
+      "href": "https://www.npmjs.com/package/leaflet-place-search"
+    }
   },  
-  {
-    "title": "Japanese-easy",
-    "techStack": [
-      "NPM",
-      "Node.js",
-      "node-fetch",
-      "Kanji API"
-    ],
-    "description": "A comprehensive toolkit for accessing and working with Japanese Kanji, Kana, and pronunciation data.",
-    "logo": "MonitoLogo",
-    "link": {
-      "label": "Japanese-easy",
-      "href": "https://github.com/crizmo/japanese-easy"
-    }
-  },
-  {
-    "title": "Mew",
-    "techStack": [
-      "Python",
-      "Stack",
-      "Bytecode",
-      "Interpreter"
-    ],
-    "description": "A Python-based stack interpreter for a custom bytecode language.",
-    "logo": "MonitoLogo",
-    "link": {
-      "label": "Mew",
-      "href": "https://github.com/crizmo/mew"
-    }
-  },
   {
     "title": "Anyanime",
     "techStack": [
@@ -185,6 +173,36 @@
     "link": {
       "label": "KWordle",
       "href": "https://github.com/crizmo/KWordle"
+    }
+  },
+    {
+    "title": "Japanese-easy",
+    "techStack": [
+      "NPM",
+      "Node.js",
+      "node-fetch",
+      "Kanji API"
+    ],
+    "description": "A comprehensive toolkit for accessing and working with Japanese Kanji, Kana, and pronunciation data.",
+    "logo": "MonitoLogo",
+    "link": {
+      "label": "Japanese-easy",
+      "href": "https://github.com/crizmo/japanese-easy"
+    }
+  },
+  {
+    "title": "Mew",
+    "techStack": [
+      "Python",
+      "Stack",
+      "Bytecode",
+      "Interpreter"
+    ],
+    "description": "A Python-based stack interpreter for a custom bytecode language.",
+    "logo": "MonitoLogo",
+    "link": {
+      "label": "Mew",
+      "href": "https://github.com/crizmo/mew"
     }
   },
   {
