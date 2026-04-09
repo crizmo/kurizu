@@ -8,6 +8,7 @@ import "./globals.css";
 export const metadata = {
   title: `${RESUME_DATA.name}`,
   description: RESUME_DATA.summary,
+  metadataBase: new URL("https://kurizu.journy.net"),
 };
 
 const inter = Inter({
