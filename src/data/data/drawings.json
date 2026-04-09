@@ -1,102 +1,132 @@
 [
   {
     "title": "Drawing 1",
+    "priority": true,
     "image": "/drawings/1.jpg"
   },
   {
     "title": "Drawing 2",
+    "priority": false,
     "image": "/drawings/2.jpg"
   },
   {
     "title": "Drawing 3",
+    "priority": true,
     "image": "/drawings/3.jpg"
   },
   {
     "title": "Drawing 4",
+    "priority": false,
     "image": "/drawings/4.jpg"
   },
   {
     "title": "Drawing 5",
+    "priority": false,
     "image": "/drawings/5.jpg"
   },
   {
     "title": "Drawing 6",
+    "priority": true,
     "image": "/drawings/6.jpg"
   },
   {
     "title": "Drawing 7",
+    "priority": false,
     "image": "/drawings/7.jpg"
   },
   {
     "title": "Drawing 8",
+    "priority": false,
     "image": "/drawings/8.jpg"
   },
   {
     "title": "Drawing 9",
+    "priority": false,
     "image": "/drawings/9.jpg"
   },
   {
     "title": "Drawing 10",
+    "priority": true,
     "image": "/drawings/10.jpg"
   },
   {
     "title": "Drawing 11",
+    "priority": false,
     "image": "/drawings/11.jpg"
   },
   {
     "title": "Drawing 12",
+    "priority": false,
     "image": "/drawings/12.jpg"
   },
   {
     "title": "Drawing 13",
+    "priority": false,
     "image": "/drawings/13.jpg"
   },
   {
     "title": "Drawing 14",
+    "priority": false,
     "image": "/drawings/14.jpg"
   },
   {
     "title": "Drawing 15",
+    "priority": false,
     "image": "/drawings/15.jpg"
   },
   {
     "title": "Drawing 16",
+    "priority": false,
     "image": "/drawings/16.jpg"
   },
   {
     "title": "Drawing 17",
+    "priority": false,
     "image": "/drawings/17.jpg"
   },
   {
     "title": "Drawing 18",
+    "priority": false,
     "image": "/drawings/18.jpg"
   },
   {
     "title": "Drawing 19",
+    "priority": false,
     "image": "/drawings/19.jpg"
   },
   {
     "title": "Drawing 20",
+    "priority": true,
     "image": "/drawings/20.jpg"
   },
   {
     "title": "Drawing 21",
+    "priority": false,
     "image": "/drawings/21.jpg"
   },
   {
     "title": "Drawing 22",
+    "priority": false,
     "image": "/drawings/22.jpg"
   },
   {
     "title": "Drawing 23",
+    "priority": false,
     "image": "/drawings/23.jpg"
   },
   {
     "title": "Drawing 24",
+    "priority": false,
     "image": "/drawings/24.jpg"
   },
   {
     "title": "Drawing 25",
+    "priority": true,
     "image": "/drawings/25.jpg"
+  },
+  {
+    "title": "Drawing 26",
+    "priority": true,
+    "image": "/drawings/26.jpg"
   }
 ]

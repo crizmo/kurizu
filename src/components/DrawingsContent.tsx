@@ -14,8 +14,13 @@ import {
 import Masonry from 'react-masonry-css';
 
 export default function DrawingsContent() {
+  type Drawing = {
+    title: string;
+    image: string;
+    priority?: boolean;
+  };
   const [darkMode, setDarkMode] = useState(false);
-  const [selectedDrawing, setSelectedDrawing] = useState<{title: string, image: string} | null>(null);
+  const [selectedDrawing, setSelectedDrawing] = useState<Drawing | null>(null);
   const [open, setOpen] = useState(false);
 
   const breakpointCols = {
@@ -60,7 +65,9 @@ export default function DrawingsContent() {
           className="my-masonry-grid"
           columnClassName="my-masonry-grid_column"
         >
-          {RESUME_DATA.drawings.map((drawing) => (
+          {([...(RESUME_DATA.drawings as Drawing[])]
+            .sort((a, b) => Number(Boolean(b.priority)) - Number(Boolean(a.priority))))
+            .map((drawing) => (
             <div key={drawing.title} className="mb-4">
               <DrawingCard
                 title={drawing.title}
@@ -71,7 +78,7 @@ export default function DrawingsContent() {
                 }}
               />
             </div>
-          ))}
+            ))}
         </Masonry>
       </section>
       <Dialog open={open} onOpenChange={setOpen}>
