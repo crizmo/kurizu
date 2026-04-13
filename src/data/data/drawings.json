@@ -128,5 +128,10 @@
     "title": "Drawing 26",
     "priority": true,
     "image": "/drawings/26.jpg"
+  },
+  {
+    "title": "Drawing 27",
+    "priority": true,
+    "image": "/drawings/27.jpg"
   }
 ]
