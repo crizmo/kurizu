@@ -32,18 +32,18 @@
     }
   },
   {
-    "title": "WebSpace",
+    "title": "Atom",
     "techStack": [
       "React",
       "JavaScript",
       "HTML5 Canvas",
       "Web APIs"
     ],
-    "description": "WebSpace is a visual web exploration tool that lets you organize websites, notes, and ideas on an interactive canvas.",
-    "logo": "WebSpaceLogo",
+    "description": "Atom is a visual web exploration tool that lets you organize websites, notes, and ideas on an interactive canvas.",
+    "logo": "AtomLogo",
     "link": {
-      "label": "WebSpace",
-      "href": "https://websspace.vercel.app/"
+      "label": "Atom",
+      "href": "https://atom.vercel.app/"
     }
   },
   {
