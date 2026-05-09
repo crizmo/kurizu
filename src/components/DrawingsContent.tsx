@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { RESUME_DATA } from "../data/resume-data";
 import { DrawingCard } from "../components/drawing-card";
 import { Button } from "../components/ui/button";
@@ -9,7 +9,6 @@ import Link from "next/link";
 import {
   Dialog,
   DialogContent,
-  DialogTrigger,
 } from "../components/ui/dialog";
 import Masonry from 'react-masonry-css';
 
@@ -22,6 +21,13 @@ export default function DrawingsContent() {
   const [darkMode, setDarkMode] = useState(false);
   const [selectedDrawing, setSelectedDrawing] = useState<Drawing | null>(null);
   const [open, setOpen] = useState(false);
+
+  const drawings = useMemo(
+    () => ([...(RESUME_DATA.drawings as Drawing[])] as Drawing[])
+      .sort((a, b) => Number(Boolean(b.priority)) - Number(Boolean(a.priority))),
+    []
+  );
+
 
   const breakpointCols = {
     default: 5,
@@ -38,6 +44,7 @@ export default function DrawingsContent() {
       document.documentElement.classList.remove('dark');
     }
   }, [darkMode]);
+
 
   return (
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
@@ -65,9 +72,7 @@ export default function DrawingsContent() {
           className="my-masonry-grid"
           columnClassName="my-masonry-grid_column"
         >
-          {([...(RESUME_DATA.drawings as Drawing[])]
-            .sort((a, b) => Number(Boolean(b.priority)) - Number(Boolean(a.priority))))
-            .map((drawing) => (
+          {drawings.map((drawing) => (
             <div key={drawing.title} className="mb-4">
               <DrawingCard
                 title={drawing.title}
@@ -75,13 +80,21 @@ export default function DrawingsContent() {
                 onClick={() => {
                   setSelectedDrawing(drawing);
                   setOpen(true);
+                  if (typeof window !== 'undefined') {
+                    window.history.pushState({}, '', drawing.image);
+                  }
                 }}
               />
             </div>
             ))}
         </Masonry>
       </section>
-      <Dialog open={open} onOpenChange={setOpen}>
+      <Dialog open={open} onOpenChange={(value) => {
+        setOpen(value);
+        if (!value && typeof window !== 'undefined') {
+          window.history.replaceState({}, '', '/drawings');
+        }
+      }}>
         <DialogContent className="max-w-2xl">
           {selectedDrawing && (
             <img
