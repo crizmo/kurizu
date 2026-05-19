@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 import { RESUME_DATA } from "../data/resume-data";
 import { Avatar, AvatarFallback, AvatarImage } from "../components/ui/avatar";
 import { Card, CardHeader, CardContent } from "../components/ui/card";
@@ -18,24 +18,30 @@ export default function MainContent() {
 
   useEffect(() => {
     if (darkMode) {
-      document.documentElement.classList.add('dark');
+      document.documentElement.classList.add("dark");
     } else {
-      document.documentElement.classList.remove('dark');
+      document.documentElement.classList.remove("dark");
     }
   }, [darkMode]);
 
   return (
-    <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
+    <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 md:p-16 print:p-12">
       <button
         onClick={() => setDarkMode(!darkMode)}
-        className="fixed top-4 right-4 p-2 bg-gray-800 text-white rounded-md dark:bg-gray-200 dark:text-gray-800 print:hidden"
+        className="fixed right-4 top-4 rounded-md bg-gray-800 p-2 text-white dark:bg-gray-200 dark:text-gray-800 print:hidden"
       >
-        {darkMode ? <SunIcon className="h-6 w-6" /> : <MoonIcon className="h-6 w-6" />}
+        {darkMode ? (
+          <SunIcon className="h-6 w-6" />
+        ) : (
+          <MoonIcon className="h-6 w-6" />
+        )}
       </button>
       <section className="mx-auto w-full max-w-5xl space-y-8 bg-white dark:bg-gray-800 print:space-y-6">
         <div className="flex items-start justify-between">
           <div className="flex-1 space-y-1.5">
-            <h1 className="text-2xl font-bold dark:text-white">{RESUME_DATA.name}</h1>
+            <h1 className="text-2xl font-bold dark:text-white">
+              {RESUME_DATA.name}
+            </h1>
             <p className="text-pretty font-mono text-sm text-muted-foreground dark:text-gray-400">
               {RESUME_DATA.about}
             </p>
@@ -76,6 +82,16 @@ export default function MainContent() {
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
         </div>
+        <a
+          href="https://github.com/crizmo"
+          className="float-right mb-4 ml-4 hidden md:block"
+          target="_blank"
+        >
+          <img
+            src="https://discord-cards.onrender.com/api/compact/784141856426033233?about=Silly&banner=https://i.etsystatic.com/40957748/r/il/e4efaa/4810125152/il_fullxfull.4810125152_23ir.jpg"
+            alt=":D"
+          />
+        </a>
         <Section>
           <h2 className="text-xl font-bold dark:text-white">About</h2>
           <p className="text-pretty font-mono text-sm text-muted-foreground dark:text-gray-400 w-full max-w-[105ch]">
@@ -103,13 +119,15 @@ export default function MainContent() {
           </div>
         </Section> */}
         <Section>
-          <h2 className="print-force-new-page text-xl font-bold dark:text-white">Interests</h2>
-          <div className="flex flex-wrap gap-1.5 mt-1">
+          <h2 className="print-force-new-page text-xl font-bold dark:text-white">
+            Interests
+          </h2>
+          <div className="mt-1 flex flex-wrap gap-1.5">
             {RESUME_DATA.interests.map((interest) => {
               return (
                 <Badge
                   key={interest}
-                  className="bg-gray-200 hover:bg-gray-300 text-gray-800 print:bg-gray-100 print:text-black print:border print:border-gray-400"
+                  className="bg-gray-200 text-gray-800 hover:bg-gray-300 print:border print:border-gray-400 print:bg-gray-100 print:text-black"
                 >
                   {interest}
                 </Badge>
@@ -127,7 +145,7 @@ export default function MainContent() {
         </Section>
         <Section className="scroll-mb-16">
           <h2 className="text-xl font-bold dark:text-white">Projects</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+          <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2">
             {RESUME_DATA.projects.map((project) => {
               return (
                 <ProjectCard
@@ -142,8 +160,10 @@ export default function MainContent() {
           </div>
         </Section>
         <Section className="scroll-mb-16">
-          <h2 className="text-xl font-bold dark:text-white">Under Development Projects</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+          <h2 className="text-xl font-bold dark:text-white">
+            Under Development Projects
+          </h2>
+          <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2">
             {RESUME_DATA.underDevelopment.map((project) => {
               return (
                 <ProjectCard
