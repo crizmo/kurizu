@@ -1,21 +1,5 @@
 [
   {
-    "title": "QrNotify",
-    "techStack": [
-      "React",
-      "Vercel",
-      "Node.js",
-      "Supabase",
-      "Material UI"
-    ],
-    "description": "Smart QR codes for real-world communications, Let people contact you instantly, without ever revealing your identity.",
-    "logo": "TastyCloudLogo",
-    "link": {
-      "label": "QrNotify",
-      "href": "https://www.qrnotify.in"
-    }
-  },
-  {
     "title": "Uben",
     "techStack": [
       "React",
