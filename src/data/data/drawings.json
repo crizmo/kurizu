@@ -153,5 +153,10 @@
     "title": "Drawing 31",
     "priority": true,
     "image": "/drawings/31.jpg"
+  },
+  {
+    "title": "Drawing 32",
+    "priority": false,
+    "image": "/drawings/32.jpg"
   }
 ]
