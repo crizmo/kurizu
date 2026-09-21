@@ -168,5 +168,15 @@
     "title": "Drawing 34",
     "priority": true,
     "image": "/drawings/34.jpg"
+  },
+    {
+    "title": "Drawing 35",
+    "priority": true,
+    "image": "/drawings/35.jpg"
+  },
+  {
+    "title": "Drawing 36",
+    "priority": true,
+    "image": "/drawings/36.jpg"
   }
 ]
