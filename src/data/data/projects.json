@@ -101,6 +101,23 @@
       "href": "https://github.com/crizmo/godot-3d-multiplayer-enhanced"
     }
   },
+  {
+    "title": "Strings",
+    "techStack": [
+      "React",
+      "Web Audio API",
+      "DSP",
+      "Vite",
+      "Framer Motion",
+      "ChordSheetJS"
+    ],
+    "description": "An interactive acoustic guitar studio with 40+ songs, 3-tier progressive learning, Karplus-Strong physical modeling audio synthesis, and a precision chromatic tuner with snap-guard.",
+    "logo": "MonitoLogo",
+    "link": {
+      "label": "Strings",
+      "href": "https://strings.journy.net/"
+    }
+  },
     {
     "title": "Leaflet Place Search",
     "techStack": [
