@@ -198,5 +198,10 @@
     "title": "Drawing 40",
     "priority": true,
     "image": "/drawings/40.jpg"
+  },
+  {
+    "title": "Drawing 41",
+    "priority": true,
+    "image": "/drawings/41.jpg"
   }
 ]
