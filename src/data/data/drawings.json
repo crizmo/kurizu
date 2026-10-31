@@ -203,5 +203,10 @@
     "title": "Drawing 41",
     "priority": true,
     "image": "/drawings/41.jpg"
+  },
+  {
+    "title": "Drawing 42",
+    "priority": true,
+    "image": "/drawings/42.jpg"
   }
 ]
